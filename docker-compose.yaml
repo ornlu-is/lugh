@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  banshee:
+    build:
+      context: ./services/banshee
+      dockerfile: Dockerfile
+
